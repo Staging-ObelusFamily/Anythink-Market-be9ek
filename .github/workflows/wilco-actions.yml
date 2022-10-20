@@ -42,5 +42,6 @@ jobs:
         with:
           node-version: '16'
           cache: 'yarn'
+          cache-dependency-path: frontend/yarn.lock
       - run: yarn add lint
       - run: yarn lint
