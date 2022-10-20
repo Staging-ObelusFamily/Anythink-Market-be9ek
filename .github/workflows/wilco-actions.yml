@@ -42,5 +42,5 @@ jobs:
         with:
           node-version: '16'
           cache: 'yarn'
-      - run: yarn install
+      - run: yarn add lint
       - run: yarn lint
